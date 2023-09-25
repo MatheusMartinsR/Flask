@@ -6,10 +6,12 @@ class Jogo:
         self.categoria = categoria
         self.console = console
 
-jogo1 = Jogo('CS GO', 'Fps', 'PC')
-jogo2 = Jogo('Valorant', 'Fps', 'PC')
-jogo3 = Jogo('Minecraft', 'SandBox e sobrevivência', 'Xbox, Playstation, Pc e Smartphone')
-lista = [jogo1, jogo2, jogo3]
+jogo1 = Jogo('Tetris', 'Puzzle', 'Atari')
+jogo2 = Jogo('God of War', 'Hack n Slash', 'PS2')
+jogo3 = Jogo('Mortal Kombat', 'Luta', 'PS2')
+jogo4 = Jogo('Need for Speed', 'Corrida', 'PS2')
+jogo5 = Jogo('Valorant', 'FPS', 'PC')
+lista = [jogo1, jogo2, jogo3, jogo4, jogo5]
 
 class Usuario:
     def __init__(self, nome, nickname, senha):
